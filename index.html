@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganeshkumar Bijjal - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #dcdcdc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .a4-container {
+            background: white;
+            width: 900px;
+            min-height: 297mm;
+            box-shadow: 0 0 15px rgba(0,0,0,0.3);
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            padding: 25px 0;
+            text-align: center;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+        }
+
+        nav {
+            background: #444;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 15px;
+        }
+
+        nav a:hover {
+            background: #666;
+            border-radius: 5px;
+        }
+
+        section {
+            padding: 20px 40px;
+            flex: 1;
+        }
+
+        .card {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+
+        img {
+            max-width: 150px;
+            border-radius: 50%;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            border-bottom-left-radius: 12px;
+            border-bottom-right-radius: 12px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="a4-container">
+    <header>
+        <h1>Ganeshkumar Bijjal</h1>
+        <p>Java Full Stack Developer | Designer | Programmer</p>
+    </header>
+
+    <nav>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section>
+        <!-- About preview -->
+        <div class="card">
+            <h2>About Me</h2>
+            <img src="profile.jpg" alt="Profile Picture">
+            <p>I'm a passionate Java Full Stack Developer with strong skills in HTML, CSS, JavaScript, Java, Spring Boot, and SQL. I enjoy building clean, user-friendly applications and learning new technologies.</p>
+        </div>
+
+        <!-- Projects preview -->
+        <div class="card">
+            <h2>Projects</h2>
+            <ul>
+                <li>Amazon Homepage Clone</li>
+                <li>Tic-Tac-Toe Game (Java)</li>
+                <li>Personal Portfolio Website</li>
+                <li>Gym Management System (Java + SQL)</li>
+                <li>Human Behaviour Prediction System (ML + DL)</li>
+            </ul>
+        </div>
+
+        <!-- Contact preview -->
+        <div class="card">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:ganeshbijjal07@gmail.com">ganeshbijjal07@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile">linkedin.com/in/yourprofile</a></p>
+            <p>GitHub: <a href="https://github.com/yourusername">github.com/yourusername</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Ganeshkumar Bijjal. All rights reserved.</p>
+    </footer>
+</div>
+
+</body>
+</html>
